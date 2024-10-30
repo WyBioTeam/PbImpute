@@ -16,7 +16,7 @@ Please note that in the Ledein_SNN function, Rscript = 'D:\R\R-4.3.1\bin\Rscript
 ### 2.2:&nbsp;&nbsp;Step 2: ZINB imputation (Please run `D:\PbImpute\ZINB_imputation\pbimpute1.R`)
 The second step is  ZINB imputation, specifically including our a new ZINB model and static repair.
 
-### 2.3:&nbsp;&nbsp;Step 3: Residual imputation (Please run `D:\PbImpute\Residual_imputation\test.py`)
+### 2.2:&nbsp;&nbsp;Step 2: ZINB imputation (Please run `D:\PbImpute\ZINB_imputation\pbimpute1.R`)
 The third  step is  Residual imputation, specifically including our a graphic embedding and dynamic repair.
 
 ## 3. Comparative Models
