@@ -6,7 +6,7 @@
 
 PbImpute: Precise Zero Discrimination and Balanced Imputation in Single-Cell RNA Sequencing Data
 
-## 2. Run (Please place the entire project in "D:\PbImpute")
+## 2. Run (Please place the entire project in `D:\PbImpute`)
 
 ### 2.1:&nbsp;&nbsp;Step 1: preprocessing (Please run `D:\PbImpute\preprocessing\PbImpute.mlx`)
 
