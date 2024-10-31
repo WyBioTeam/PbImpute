@@ -27,7 +27,7 @@ The following models and methods are referenced:
 - **DCA**: [Nature Communications](https://www.nature.com/articles/s41467-018-07931-2)
 - **DeepImpute**: [Genome Biology](https://link.springer.com/article/10.1186/s13059-019-1837-6)
 - **bayNorm**: [Bioinformatics](https://academic.oup.com/bioinformatics/article/36/4/1174/5581401)
-- **GE-Impute**: [Bioinformatics](https://academic.oup.com/bib/article/23/5/bbac313/6651303?login=false)
+- **GE-Impute**: [Briefings in Bioinformatics](https://academic.oup.com/bib/article/23/5/bbac313/6651303?login=false)
 - **ALRA**: [Nature Communications](https://www.nature.com/articles/s41467-021-27729-z)
 - **CL-Impute**: [Journal of Computational Biology](https://www.sciencedirect.com/science/article/abs/pii/S001048252300728X)
 - **TsImpute**: [Bioinformatics](https://academic.oup.com/bioinformatics/article/39/12/btad731/7457483)
