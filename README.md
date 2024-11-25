@@ -29,7 +29,7 @@ The following models and methods are referenced:
 - **bayNorm**: [Bioinformatics](https://academic.oup.com/bioinformatics/article/36/4/1174/5581401)
 - **GE-Impute**: [Briefings in Bioinformatics](https://academic.oup.com/bib/article/23/5/bbac313/6651303?login=false)
 - **ALRA**: [Nature Communications](https://www.nature.com/articles/s41467-021-27729-z)
-- **CL-Impute**: [Journal of Computational Biology](https://www.sciencedirect.com/science/article/abs/pii/S001048252300728X)
+- **CL-Impute**: [Computers in Biology and Medicine](https://www.sciencedirect.com/science/article/abs/pii/S001048252300728X)
 - **TsImpute**: [Bioinformatics](https://academic.oup.com/bioinformatics/article/39/12/btad731/7457483)
 
 ## 4. Data availability
