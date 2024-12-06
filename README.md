@@ -6,17 +6,18 @@
 
 PbImpute: Precise Zero Discrimination and Balanced Imputation in Single-Cell RNA Sequencing Data
 
-## 2. Run (Please place the entire project in `D:\PbImpute`)
+## 2. Run (Please place the entire project in `.../PbImpute/`)
+For example:`D:/PbImpute`
 
-### 2.1:&nbsp;&nbsp;Step 1: preprocessing (Please run `D:\PbImpute\preprocessing\PbImpute.mlx`)
+### 2.1:&nbsp;&nbsp;Step 1: preprocessing (Please run `.../PbImpute/preprocessing/PbImpute.mlx`)
 
 The first step is preprocessing. Please run the MATLAB file PbImpute.mlx, which contains detailed execution steps.
-Please note that in the Ledein_SNN function, Rscript = 'D:\R\R-4.3.1\bin\Rscript.exe' specifies the path to your R installation. If the operation is successful, there will be a "grout.txt" file in the D:\PbImpute\preprocessing\.
+Please note that in the Ledein_SNN function, Rscript = 'D:\R\R-4.3.1\bin\Rscript.exe' specifies the path to your R installation. If the operation is successful, there will be a "grout.txt" file in the .../PbImpute/preprocessing/.
 
-### 2.2:&nbsp;&nbsp;Step 2: ZINB imputation (Please run `D:\PbImpute\ZINB_imputation\pbimpute1.R`)
+### 2.2:&nbsp;&nbsp;Step 2: ZINB imputation (Please run `.../PbImpute/ZINB_imputation/pbimpute1.R`)
 The second step is  ZINB imputation, specifically including our a new ZINB model and static repair. 
 
-### 2.3:&nbsp;&nbsp;Step 3: Residual imputation (Please run `\Residual_imputation\test.py`)
+### 2.3:&nbsp;&nbsp;Step 3: Residual imputation (Please run `.../Residual_imputation/test.py`)
 The third  step is  Residual imputation, specifically including our a graphic embedding and dynamic repair.
 
 ## 3. Comparative Models
