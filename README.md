@@ -50,13 +50,17 @@ Since SCRABBLE is constrained by bulk RNA-seq data and introduces other datasets
   - To test runtime and memory usage (from 10,000 cells to 50,000 cells)
   - To visualize clustering (40,000 cells)
 
+# Simulation Data Generation Script
 
-`
+This script generates simulation data using the **Splatter** package in R. Below is the code for generating the simulation data and saving it for later analysis.
+
+```r
 library(edgeR)
 library(Matrix)
 library(splatter)
 library(scater)
 library(Seurat)
+
 ######## Data Generation ##############
 # the function generating the simulation data using bioconductor package Splatter
 generate_simulation_splatter <- function(dropout_index, seed_value, nGenes = 2000){
@@ -158,7 +162,8 @@ generate_save_data <- function(dropout_index, seed_value){
 for (dropout_index in c(1,2,3,4,5)) {
   for (i in 1:3) {
     generate_save_data(dropout_index, 100)
+  }
 }
-}
-`
+
+
 
